@@ -42,6 +42,8 @@
 #define vectors_high()	(0)
 #endif
 
+#define BPIALL				__ACCESS_CP15(c7, 0, c5, 6)
+
 extern unsigned long cr_no_alignment;	/* defined in entry-armv.S */
 extern unsigned long cr_alignment;	/* defined in entry-armv.S */
 
